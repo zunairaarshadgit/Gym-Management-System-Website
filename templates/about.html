@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - GymMaster</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="{{ url_for('static', filename='images/logo.jpg') }}" class="logo-img me-2" alt="logo">
+            <span class="fw-bold fs-4">GymMaster</span>
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav">
+               <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="/about">About Us</a></li>
+    <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="/membership">Membership</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="about-hero">
+        <div>
+            <h1 class="display-4 fw-bold">Who We Are</h1>
+            <p class="lead">
+                We are not just a gym. We are a movement that transforms lives.
+            </p>
+        </div>
+    </section>
+
+    <!-- ABOUT CONTENT -->
+    <section class="container my-5">
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b"
+                    class="img-fluid rounded shadow">
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-3">About GymMaster</h2>
+                <p>
+                    GymMaster is built for those who refuse to stay average. Our mission is to provide
+                    a powerful environment where individuals can transform their body and mindset.
+                    We combine modern equipment, expert trainers, and high-energy motivation to push
+                    you beyond your limits.
+                </p>
+
+                <p>
+                    Whether your goal is to lose weight, gain muscle, or simply stay fit, we provide
+                    everything you need. Our community is strong, supportive, and driven by results.
+                </p>
+
+                <p>
+                    Here, every workout matters. Every drop of sweat counts. And every member becomes
+                    stronger than yesterday.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats text-center p-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h2>500+</h2>
+                    <p>Members</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>20+</h2>
+                    <p>Expert Trainers</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>10+</h2>
+                    <p>Years Experience</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>100%</h2>
+                    <p>Results</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAINERS -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Our Trainers</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card trainer-card shadow">
+                   <img src="{{ url_for('static', filename='images/gymer1.jpg') }}" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Ali Khan</h5>
+                        <p>Strength Coach</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card trainer-card shadow">
+                    <img src="{{ url_for('static', filename='images/gymer3.jpg') }}" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Ahmed Raza</h5>
+                        <p>Fitness Trainer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card trainer-card shadow">
+                    <img src="{{ url_for('static', filename='images/gymer3.jpg') }}" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Usman Ali</h5>
+                        <p>Cardio Expert</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="modern-footer text-white pt-5">
+
+        <div class="container">
+            <div class="row">
+
+                <!-- Brand -->
+                <div class="col-md-4 mb-4">
+                    <h2 class="fw-bold text-warning">GymMaster</h2>
+                    <p>
+                        Build strength, confidence, and discipline. Your transformation starts here —
+                        step by step, day by day.
+                    </p>
+                </div>
+
+                <!-- Links -->
+                <div class="col-md-4 mb-4">
+                    <center>
+                        <h5 class="text-warning">Quick Links</h5>
+                        <ul class="footer-links">
+                           <li><a href="/">Home</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/membership">Membership</a></li>
+                        </ul>
+                    </center>
+                </div>
+
+                <!-- Motivation -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-warning">Motivation</h5>
+                    <p>
+                        “Don’t limit your challenges. Challenge your limits.”
+                    </p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center pb-3">
+                <p class="mb-0">Made with dedication | GymMaster 2026</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

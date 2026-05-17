@@ -1,0 +1,177 @@
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+
+.hero-section {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('/images/bgpic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* HERO SECTION */
+.about-hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://images.unsplash.com/photo-1540497077202-7c8a3999166f');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* STATS */
+.stats {
+    background: #111;
+    color: white;
+}
+
+.stats h2 {
+    font-weight: bold;
+}
+
+/* TRAINERS */
+.trainer-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    color: white;
+}
+
+
+
+
+/* HERO */
+.services-hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* CARDS */
+.service-card {
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+/* ICON STYLE */
+.icon {
+    font-size: 40px;
+    color: #ffc107;
+}
+
+/* PRICING */
+.pricing {
+    background: #111;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+
+
+
+
+/* HERO */
+.membership-hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* PRICING CARDS */
+.plan-card {
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.plan-card:hover {
+    transform: scale(1.05);
+}
+
+/* FEATURE LIST */
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan-card ul li {
+    padding: 5px 0;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+
+
+.modern-footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 8px 0;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffc107;
+    padding-left: 6px;
+}
